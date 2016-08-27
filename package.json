@@ -1,0 +1,21 @@
+{
+  "name": "try-fable",
+  "version": "0.1.0",
+  "description": "",
+  "repository": "https://github.com/wk-j/try-fable-webpack",
+  "scripts": {
+    "build": "fable",
+    "watch": "fable -w --target watch"
+  },
+  "author": "wk",
+  "license": "MIT",
+  "devDependencies": {
+    "fable-compiler": "^0.5.9",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "fable-core": "^0.5.5"
+  }
+}
